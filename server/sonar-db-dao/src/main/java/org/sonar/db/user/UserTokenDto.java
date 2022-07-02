@@ -43,6 +43,8 @@ public class UserTokenDto {
 
   private String type;
 
+  private Long expirationDate;
+
   private String projectName;
 
   private String projectUuid;
@@ -119,6 +121,15 @@ public class UserTokenDto {
     return this;
   }
 
+  public Long getExpirationDate() {
+    return expirationDate;
+  }
+
+  public UserTokenDto setExpirationDate(@Nullable Long expirationDate) {
+    this.expirationDate = expirationDate;
+    return this;
+  }
+
   @CheckForNull
   public String getProjectName() {
     return projectName;
@@ -133,7 +144,12 @@ public class UserTokenDto {
     return projectUuid;
   }
 
-  public void setProjectUuid(String projectUuid) {
+  public UserTokenDto setProjectUuid(@Nullable String projectUuid) {
     this.projectUuid = projectUuid;
+    return this;
+  }
+
+  public boolean isExpired() {
+    return (this.expirationDate != null && this.getExpirationDate() < System.currentTimeMillis());
   }
 }
