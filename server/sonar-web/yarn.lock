@@ -2309,7 +2309,7 @@ __metadata:
     d3-shape: 1.3.7
     d3-zoom: 1.8.3
     date-fns: 1.30.1
-    dompurify: 2.3.6
+    dompurify: 2.4.2
     enzyme: 3.11.0
     enzyme-adapter-react-16: 1.15.6
     enzyme-to-json: 3.6.2
@@ -4059,10 +4059,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:2.3.6":
-  version: 2.3.6
-  resolution: "dompurify@npm:2.3.6"
-  checksum: 4b2bbf6bc68ebd776aec4a533cef74a5ae30391eed528f3df748af71da318afdc298b6f40449bef093b7454ffd2ae82656636560474de5a3b34316b762c85b12
+"dompurify@npm:2.4.2":
+  version: 2.4.2
+  resolution: "dompurify@npm:2.4.2"
+  checksum: 5b01e377755f8f3b5d4e30fc3292e060ece66874b50b35e19f601f1e671d6cefbf0fa71bcc0f863c0f7cbcea502349f67f72f8172223d4a9e963ba6bd335dce5
   languageName: node
   linkType: hard
 
@@ -10671,7 +10671,7 @@ resolve@^1.3.2:
 
 "typescript@patch:typescript@4.6.3#~builtin<compat/typescript>":
   version: 4.6.3
-  resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"
+  resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
